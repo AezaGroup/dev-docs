@@ -29,6 +29,9 @@ this.api.query('POST', 'services/orders', {
 
 Параметры услуги можно получить в поле ```ServiceType.computedParameters``` (```GET /service/types```)
 
+### Более подробно про типы услуг и их параметры
+* [Домены](/t/types/domain.md)
+
 ## Управление услугой
 Для управления услугой используется ```POST /services/:ID/ctl```:
 | Поле | Описание | Варианты | Стандартное значение |
