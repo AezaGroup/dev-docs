@@ -31,6 +31,7 @@ this.api.query('POST', 'services/orders', {
 
 ### Более подробно про типы услуг и их параметры
 * [Домены](/t/types/domain.md)
+* [WAF-Защита](/t/types/waf.md)
 
 ## Управление услугой
 Для управления услугой используется ```POST /services/:ID/ctl```:
