@@ -86,11 +86,15 @@ try {
 | password | новый пароль | string |  |
 
 Все поля, кроме айди рецепта, являются обязательными.
+
 Список ОС можно получить через GET-запрос: ```https://core.aeza.net/api/os```
+
 Список рецептов получается аналогично: ```https://core.aeza.net/api/vm/recipe```
 
 ## Дополнительные операции
 
 Вы можете изменить пароль сервера: ```PUT /services/:id/changePassword { "password": "very-very-secure-one" }```
+
 Вы можете изменить имя услуги: ```PUT /services/:id { "name": "my-awesome-server" }```
+
 Или удалить услугу без возврата средств: ```DELETE /services/:id```
