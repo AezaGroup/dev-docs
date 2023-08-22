@@ -1,9 +1,9 @@
 # Использование API и авторизация
 
 Для общения с API используется базовый URL:
-```https://core.aeza.net/api```
-Если мы хотим получить список продуктов, то есть использовать роут ```services/products```, то отправим GET запрос по адресу ```https://core.aeza.net/api/services/products```. Пример команды curl:
-```curl https://core.aeza.net/api/services/products```.
+```https://my.aeza.net/api```
+Если мы хотим получить список продуктов, то есть использовать роут ```services/products```, то отправим GET запрос по адресу ```https://my.aeza.net/api/services/products```. Пример команды curl:
+```curl https://my.aeza.net/api/services/products```.
 
 Данные всегда возвращаются в формате JSON, если API метод подразумевает получение списка сущностей, то данные возвращаются в формате:
 | Поле | Значение |
